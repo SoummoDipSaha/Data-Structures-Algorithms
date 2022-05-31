@@ -4,8 +4,7 @@ using namespace std;
 
 int binarySearch(int *arr, int n, int k)
 {
-    int mid, up = n - 1;
-    int low = 0;
+    int mid, up = n - 1, low = 0;
     while (low <= up)
     {
         mid = (low + up) / 2;
