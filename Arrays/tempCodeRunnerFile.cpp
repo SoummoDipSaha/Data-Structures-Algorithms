@@ -1,10 +1,6 @@
-int i, pos = -1;
-    for (i = 0; i < n; i++)
-    {
-        if (arr[i] == val)
-        {
-            pos = i + 1;
-            break;
-        }
-    }
-    return pos;
+for (i = 0; i < arr.size(); i++)
+    // {
+    //     map[arr[i]]++;
+    //     if (map[arr[i]] == 2)
+    //         ans.push_back(arr[i]);
+    // }
